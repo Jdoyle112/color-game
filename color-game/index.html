@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+	<h1>Childrens Color Game</h1>
+	<h4>Play a melody by clicking a color!</h4>
+	<p>*Don't click the purple button!</p>
+
+	<div class="container">
+		<div class="row">
+
+			<audio id="audio"></audio>
+				<button class="col-md-2" id="first" onclick="play('audio/storm.mp3')">
+			 </button>
+			<button class="col-md-2" id="second" onclick="play('audio/piano.mp3')">
+			 </button>
+			<button class="col-md-2" id="third" onclick="play('audio/night.mp3')">
+			 </button>
+			<button class="col-md-2" id="fourth" onclick="play('audio/mg.mp3')">
+			 </button>
+		</div>
+		<div class="row">
+			<button class="col-md-2" id="fifth" onclick="play('audio/glass.mp3')">
+			 </button>
+			<button class="col-md-2" id="sixth" onclick="play('audio/farts.mp3')">
+			 </button>
+			<button class="col-md-2" id="seventh" onclick="play('audio/audience.mp3')">
+			 </button>
+			<button class="col-md-2" id="eigth" onclick="play('audio/annoying.mp3')">
+			 </button>
+		</div>
+	</div>
+</body>
+</html>
